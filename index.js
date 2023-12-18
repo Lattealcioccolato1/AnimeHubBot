@@ -12,7 +12,7 @@ const client = new Client({
     presence: { activities: [{ name: 'with Discord.js v14', type: 'PLAYING' }] }
 });
 
-client.login('MTE4MTk3MzM0MTIzNDUzNjU5OA.GI7clw.kPjU1Mnvz8UQ8pGAfHoiIB2xoBnoQzropoPqcg');
+client.login('il mio token');
 
 client.once("ready", () => {
     console.log("BOT ONLINE!");
